@@ -25,7 +25,7 @@ public class DolarProvider
     }
     public static void valorDelDolar() {
         HttpClient client = HttpClient.newHttpClient(); //creamos un objeto cliente (para hacer la llamada HTTP "Cliente")
-        HttpRequest request = HttpRequest.newBuilder().uri(URI.create("Private API URL with keyh")).build(); // clase encargada de generar la consulta
+        HttpRequest request = HttpRequest.newBuilder().uri(URI.create("Private API URL with key")).build(); // clase encargada de generar la consulta
         client.sendAsync(request, HttpResponse.BodyHandlers.ofString()) // se envia el request de manera asincronica
                 .thenApply(HttpResponse::body) // trae devuelta el body de la respuesta
                 .thenAccept(DolarProvider::parse) // el metodo que se ejecuta cuando la request llegue
