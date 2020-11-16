@@ -5,6 +5,10 @@ abstract class Soldado {
     protected Soldado(String nombre,String regimiento){
         this.nombre = nombre;
         this.regimiento = regimiento;
+        saludar();
+        rifles();
+        aTierra();
+        atencion();
     }
     protected void saludar(){System.out.println("Saludos señor soy el soldado, "+nombre+" del regimiento de, "+regimiento); }
     protected void rifles(){System.out.println("Ya mismo disparo el rifle");}
