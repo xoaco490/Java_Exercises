@@ -1,0 +1,25 @@
+La empresa de construcción “La Casita” nos contrató para que le realicemos el sistema de
+control de personal y para la liquidación de sueldo. El gerente José Ladrillo nos indicó que
+tienen varias categorías donde pueden estar los empleados.
+
+Operario: Son los trabajadores que comienzan.
+
+Peón: Es la escala donde el operario ya sabe realizar su trabajo.
+
+Oficial: Especialista.
+
+Como la empresa se dedica a realizar obra completa, se debe contemplar que trabajan
+carpinteros, albañiles, electricistas, plomeros, gasistas y pintores por lo que se tendrá que
+aclarar la especialidad de cada uno.
+Nos piden que se puedan listar todos los operarios de una especialidad, los operarios de una
+categoría en una especialidad y lo que se le debe abonar a cada empleado por su mensualidad.
+Otro punto a tener en cuanta es el siguiente, cuando un operario pasa a peón cobra un 30%
+más de sueldo y cuando pasa de peón a oficial un 40% más.
+
+Sueldos por especialidad
+Albañiles: 35000$
+Carpinteros: 28000$
+Electricistas: 37000$
+Plomeros: 36000$
+Gasistas: 38000$
+Pintores: 25000$
